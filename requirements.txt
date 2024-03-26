@@ -33,7 +33,7 @@ mkdocs==1.5.3
     # via
     #   mkdocs-gallery
     #   mkdocs-material
-mkdocs-gallery==0.10.0
+mkdocs-gallery @ git+https://github.com/thomasjpfan/mkdocs-gallery@8ebb769ab50c1053fd07f66294c32a9eebb82a6a
 mkdocs-material==9.5.13
     # via mkdocs-gallery
 mkdocs-material-extensions==1.3.1

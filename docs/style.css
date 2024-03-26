@@ -1,7 +1,7 @@
 /* Hide Jupyter notebook link */
-.md-typeset a[href$=".ipynb"] {
+/* .md-typeset a[href$=".ipynb"] {
     display: none;
-}
+} */
 
 /* Remove the "Download full example header" */
 /* .md-content__inner div:first-child {
