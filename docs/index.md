@@ -36,5 +36,7 @@ pip install unionai
 To use all the features of UnionAI's Severless, please use `unionai` as the entrypoint:
 
 ```bash
-unionai run --remote ...
+unionai run --remote \
+  https://raw.githubusercontent.com/flyteorg/flytesnacks/master/examples/basics/basics/hello_world.py \
+  hello_world_wf
 ```
