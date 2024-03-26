@@ -11,7 +11,23 @@ To get started with Union serverless:
 
 ## Installation
 
-Install `unionai`
+1. Create a virtual environment with Python’s `venv` or `conda`:
+
+    1. For `venv`, run:
+
+    ```bash
+    python -m venv .venv
+    source .venv/bin/activate
+    ```
+
+    2. For `conda`, run:
+
+    ```bash
+    conda create -n dev python=3.11 -y
+    conda activate dev
+    ```
+
+2. Install `unionai`
 
 ```bash
 pip install unionai
