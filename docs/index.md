@@ -4,7 +4,7 @@
 
 To get started with Union serverless:
 
-- Create an account on github.com.
+- Create an account on [github.com](github.com).
 - Go to the serverless tenant on your browser: [https://serverless-gcp.cloud-staging.union.ai](https://serverless-gcp.cloud-staging.union.ai)
 - Click Sign in with GitHub, and you should be taken to the Union serverless console.
 - Now you're ready to start using Union serverless!
