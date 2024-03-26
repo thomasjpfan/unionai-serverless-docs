@@ -20,5 +20,5 @@ pip install unionai
 To use all the features of UnionAI's Severless, please use `unionai` as the entrypoint:
 
 ```bash
-unionai run --remote my_workflow.py main
+unionai run --remote ...
 ```
