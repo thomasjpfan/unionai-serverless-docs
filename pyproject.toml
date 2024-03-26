@@ -1,0 +1,7 @@
+[project]
+name = "unionai-serverless-docs"
+version = "0.0.0"
+dependencies = ["mkdocs", "mkdocs-material", "mkdocs-gallery", "pillow"]
+
+[tool.ruff]
+line-length = 88

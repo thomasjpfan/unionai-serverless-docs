@@ -1,0 +1,31 @@
+site_name: UnionAI Serverless Docs
+theme:
+  name: material
+  logo: assets/logo.svg
+  palette:
+    primary: white
+
+plugins:
+  - gallery:
+      conf_script: docs/gallery_conf.py
+      examples_dirs:
+        - docs/src/user-guide
+        - docs/src/tutorials
+      gallery_dirs:
+        - docs/user-guide
+        - docs/tutorials
+      plot_gallery: false
+      # Do not report time
+      min_reported_time: 100000
+      download_all_examples: false
+      default_thumb_file: docs/assets/union_symbol.png
+      filename_pattern: ".py"
+  - search
+
+nav:
+  - Home: index.md
+  - User Guide: user-guide
+  - Tutorials: tutorials
+
+extra_css:
+  - style.css
